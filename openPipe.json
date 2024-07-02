@@ -1,0 +1,18 @@
+{
+    "recommends": "houdini_version > '20.0.625'",
+
+    "env": [
+        {
+            "OPENPIPE": "$HOUDINI_PACKAGE_PATH/openPipe",
+        },
+        {
+            "OTLPATH": "$OPENPIPE/otls",
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": "$OTLPATH;$OTLPATH/sop;$OTLPATH/obj;$OTLPATH/legacy;$HOUDINI_OTLSCAN_PATH",
+        },
+    ],
+    
+    "path": "$OPENPIPE",
+}
+
