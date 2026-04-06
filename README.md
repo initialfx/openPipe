@@ -4,9 +4,16 @@ OpenPipe는 파이브라인 툴 개발을 시작하기 위한 기초적인 "Hell
 
 ## 시작하기 (Quick Start)
 
-1.  **설치 (Installation):**
+1.  **레포지토리 클론 (Clone):**
     ```powershell
-    cd c:/HOU/Dev/OpenPipe
+    # 프로젝트를 로컬로 가져옵니다.
+    git clone https://github.com/initialfx/openPipe.git
+    cd openPipe
+    ```
+
+2.  **설치 (Installation):**
+    파일 수정을 즉시 반영할 수 있도록 `editable mode`로 설치합니다.
+    ```powershell
     pip install -e .
     ```
 
