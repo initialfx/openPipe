@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openpipe"
+version = "0.0.1"
+description = "Pipeline tools for VFX"
+readme = "README.md"
+authors = [
+    { name = "initialfx", email = "initialfx@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "typing-extensions>=4.14.1",
+]
+
+[project.scripts]
+openpipe_hello = "openpipe.cli.hello:main"
+openpipe_foo = "openpipe.cli.foo:main"
+openpipe_tree = "openpipe.cli.Treeview:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
