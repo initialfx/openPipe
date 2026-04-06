@@ -9,6 +9,9 @@ OpenPipe는 파이브라인 툴 개발을 시작하기 위한 기초적인 "Hell
     # 프로젝트를 로컬로 가져옵니다.
     git clone https://github.com/initialfx/openPipe.git
     cd openPipe
+    
+    #권장 디렉토리 구조
+    C:/Dev/OpenPipe 
     ```
 
 2.  **설치 (Installation):**
