@@ -1,8 +1,6 @@
-def say_hello():
-    return "Hello from OpenPipe!"
-
-def say_foo():
-    return "Hello from foo!"
+"""Core OpenPipe Production Modules"""
+from .prod import Project, get_shot_info, test_production_logic
 
 def get_project_name():
+    """기본 프로젝트 이름 반환"""
     return "OpenPipe"
